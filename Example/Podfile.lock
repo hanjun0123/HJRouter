@@ -1,0 +1,16 @@
+PODS:
+  - HJRouter (0.1.0)
+
+DEPENDENCIES:
+  - HJRouter (from `../`)
+
+EXTERNAL SOURCES:
+  HJRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HJRouter: faaddecd02b16a043ebb8a79e8348b7d5cc7acd5
+
+PODFILE CHECKSUM: 8b7107a1a0e4ecb587b589ad48bd10e8deff7a1e
+
+COCOAPODS: 1.7.5

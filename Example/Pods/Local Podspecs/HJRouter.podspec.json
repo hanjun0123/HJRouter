@@ -1,0 +1,22 @@
+{
+  "name": "HJRouter",
+  "version": "0.1.0",
+  "summary": "A short description of HJRouter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hanjun/HJRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hanjun": "hanjun@yxt.com"
+  },
+  "source": {
+    "git": "https://github.com/hanjun/HJRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HJRouter/Classes/**/*"
+}
