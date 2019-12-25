@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/hanjun0123/HJRouter'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hanjun' => '1017819339@qq.com' }
-  s.source           = { :git => 'https://github.com/hanjun/HJRouter.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/hanjun0123/HJRouter.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'HJRouter/Classes/**/*'
