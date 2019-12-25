@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     ios router manage!
                        DESC
 
-  s.homepage         = 'https://github.com/hanjun/HJRouter'
+  s.homepage         = 'https://github.com/hanjun0123/HJRouter'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hanjun' => '1017819339@qq.com' }
   s.source           = { :git => 'https://github.com/hanjun/HJRouter.git', :tag => s.version.to_s }
