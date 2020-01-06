@@ -39,13 +39,13 @@
 
 /* Begin PBXFileReference section */
 		050E694A0232EF3610808B893C019C4A /* Pods-HJRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0AFF8CB653C57D507DAB65452CC38EEF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0AFF8CB653C57D507DAB65452CC38EEF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		0E3C18083EB45292ABD8BA5C596D56EF /* Pods-HJRouter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HJRouter_Example.modulemap"; sourceTree = "<group>"; };
-		1703823CDBA78C7A872BD1D6E81EDED1 /* HJRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HJRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1703823CDBA78C7A872BD1D6E81EDED1 /* HJRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HJRouter.framework; path = HJRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F391336816A06947C487CF127A2F099 /* Pods-HJRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		39E255C7FE096750A1A43D8E2C5128C2 /* HJRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HJRouter.xcconfig; sourceTree = "<group>"; };
-		4336646E8311372663B056E652E1BCF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4336646E8311372663B056E652E1BCF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4D9871E1FF47CA5071B287255B72D162 /* Pods-HJRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4D98979E8602856B2813461516E6C9B7 /* Pods-HJRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HJRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4F8FAB3246413550246CA4EF78004B83 /* Pods-HJRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HJRouter_Example-dummy.m"; sourceTree = "<group>"; };
@@ -56,20 +56,20 @@
 		89680B85676924469518354E89F7EEC5 /* Pods-HJRouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HJRouter_Tests.modulemap"; sourceTree = "<group>"; };
 		8AB99ADC27C99EB120EB6C92EAAA28AE /* Pods-HJRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HJRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		99F2E95B7214272BAEFF7EEA36277A5A /* Pods-HJRouter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HJRouter_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E242682CDD629B0C95B14B002ED7762 /* HJRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HJRouter.h; path = HJRouter/Classes/HJRouter.h; sourceTree = "<group>"; };
 		9E55686CF101DFDB26D2B57C1BF939C9 /* HJRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HJRouter-dummy.m"; sourceTree = "<group>"; };
 		A223218273DD63352262330B483AD312 /* Pods-HJRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HJRouter_Example-umbrella.h"; sourceTree = "<group>"; };
 		A35BE5F7D7EADC0C522C099F04854251 /* HJRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HJRouter-Info.plist"; sourceTree = "<group>"; };
-		AB995546C90834ED665D08470CC73F9A /* Pods_HJRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB995546C90834ED665D08470CC73F9A /* Pods_HJRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HJRouter_Tests.framework; path = "Pods-HJRouter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEAD98AAFB1950C2473BD2CAEAAD61F0 /* HJRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HJRouter.modulemap; sourceTree = "<group>"; };
 		B6F07292F3590A164D4558B2DE55E26B /* Pods-HJRouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HJRouter_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B707CC760074A254598D66B82E94425C /* HJRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HJRouter-umbrella.h"; sourceTree = "<group>"; };
 		BAF8522CD1660A1A31A2B3B25079F0BD /* Pods-HJRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HJRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C67E28A7F02CA9A0BAE16C3A5BD96FB6 /* HJRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HJRouter.m; path = HJRouter/Classes/HJRouter.m; sourceTree = "<group>"; };
 		DB536BFA9D1254425BADB73D56431EDB /* Pods-HJRouter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HJRouter_Tests-Info.plist"; sourceTree = "<group>"; };
-		E2ABEDFDCB7C3F73D37C3135853B7806 /* HJRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HJRouter.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		EB8CF7D1D80F3F696CA4F0D64896442E /* Pods_HJRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2ABEDFDCB7C3F73D37C3135853B7806 /* HJRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HJRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EB8CF7D1D80F3F696CA4F0D64896442E /* Pods_HJRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HJRouter_Example.framework; path = "Pods-HJRouter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF22907347769AD6BC95CE52A1923E7 /* HJRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HJRouter-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -561,7 +561,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

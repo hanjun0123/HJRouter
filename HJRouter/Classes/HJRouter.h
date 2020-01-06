@@ -11,6 +11,8 @@
 
 - (id)openURL:(NSString *)urlString;
 
+- (id)openURL:(NSString *)urlString completion:(void (^)(id result))completion;
+
 - (id)performTarget:(NSString *)targetName action:(NSString *)actionName param:(NSDictionary *)param;
 
 @end

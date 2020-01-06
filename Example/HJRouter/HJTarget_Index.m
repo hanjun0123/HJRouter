@@ -14,12 +14,15 @@
 @implementation HJTarget_Index
 
 - (id)action_home:(NSDictionary *)param{
+    NSLog(@"action_home param:%@",param);
     HJHomeViewController * vc = [[HJHomeViewController alloc] init];
     UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:vc];
     return nav;
 }
 
-- (id)action_ui:(NSDictionary *)param {
+- (id)action_ui:(NSDictionary *)param completion:(void (^)(id result))completion{
+    NSLog(@"action_ui param:%@",param);
+    completion(@"hello");
     HJUIViewController * vc = [[HJUIViewController alloc] init];
     UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:vc];
     return nav;

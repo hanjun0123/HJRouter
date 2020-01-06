@@ -68,7 +68,7 @@
 		9C60B0A8B32D5E9174889905 /* Pods_HJRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7C4BB0606485C8EE4FB208 /* Pods_HJRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0092FFCF0F8690C5F89D0E8 /* Pods-HJRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJRouter_Example.debug.xcconfig"; path = "Target Support Files/Pods-HJRouter_Example/Pods-HJRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CFDD86FF2ED36EF950F24540 /* HJRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HJRouter.podspec; path = ../HJRouter.podspec; sourceTree = "<group>"; };
+		CFDD86FF2ED36EF950F24540 /* HJRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HJRouter.podspec; path = ../HJRouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D3E88E5F62DD005D81945757 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ECCCC79123B1DC3F00E05710 /* HJTarget_Index.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJTarget_Index.h; sourceTree = "<group>"; };
 		ECCCC79223B1DC3F00E05710 /* HJTarget_Index.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJTarget_Index.m; sourceTree = "<group>"; };

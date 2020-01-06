@@ -15,11 +15,13 @@
 {
      self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
 
-        UINavigationController * homeNav = [[HJRouter sharedInstance] openURL:@"http://Index/home"];
-        UINavigationController * uiNav = [[HJRouter sharedInstance] openURL:@"http://Index/ui"];
-        UINavigationController * settingNav = [[HJRouter sharedInstance] openURL:@"http://Index/setting"];
+    UINavigationController * homeNav = [[HJRouter sharedInstance] openURL:@"http://Index/home?p1=x&p2=2"];
+    UINavigationController * uiNav = [[HJRouter sharedInstance] openURL:@"http://Index/ui?b1=x&b2=2" completion:^(NSString * result) {
+        NSLog(@"result = %@", result);
+    }];
+//        UINavigationController * settingNav = [[HJRouter sharedInstance] openURL:@"http://Index/setting"];
         UITabBarController * tabC = [[UITabBarController alloc] init];
-        [tabC setViewControllers:@[homeNav, uiNav, settingNav]];
+        [tabC setViewControllers:@[homeNav, uiNav]];
      
         self.window.rootViewController = tabC;
         [self.window makeKeyAndVisible];

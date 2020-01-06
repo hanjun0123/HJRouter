@@ -1,5 +1,5 @@
 PODS:
-  - HJRouter (0.1.0)
+  - HJRouter (1.0)
 
 DEPENDENCIES:
   - HJRouter (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HJRouter: faaddecd02b16a043ebb8a79e8348b7d5cc7acd5
+  HJRouter: e441b1739b3789317445708dc050122e5fdde753
 
 PODFILE CHECKSUM: 8b7107a1a0e4ecb587b589ad48bd10e8deff7a1e
 
