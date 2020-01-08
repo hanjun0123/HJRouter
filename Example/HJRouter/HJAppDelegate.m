@@ -19,12 +19,16 @@
     UINavigationController * uiNav = [[HJRouter sharedInstance] openURL:@"http://Index/ui?b1=x&b2=2" completion:^(NSString * result) {
         NSLog(@"result = %@", result);
     }];
-//        UINavigationController * settingNav = [[HJRouter sharedInstance] openURL:@"http://Index/setting"];
-        UITabBarController * tabC = [[UITabBarController alloc] init];
-        [tabC setViewControllers:@[homeNav, uiNav]];
+    
+    NSDictionary *body = @{@"x":@"x1",@"y":@"y1"};
+    UINavigationController * settingNav = [[HJRouter sharedInstance] openURL:@"http://Index/setting" body:body completion:^(NSString * result) {
+        NSLog(@"result = %@", result);
+    }];
+    UITabBarController * tabC = [[UITabBarController alloc] init];
+    [tabC setViewControllers:@[homeNav, uiNav, settingNav]];
      
-        self.window.rootViewController = tabC;
-        [self.window makeKeyAndVisible];
+    self.window.rootViewController = tabC;
+    [self.window makeKeyAndVisible];
     
     return YES;
 }

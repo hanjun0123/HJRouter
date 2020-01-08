@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (id)action_ui:(NSDictionary *)param completion:(void (^)(id result))completion;
 
-- (id)action_setting:(NSDictionary *)param;
+- (id)action_setting:(NSDictionary *)param completion:(void (^)(id result))completion;
 
 @end
 

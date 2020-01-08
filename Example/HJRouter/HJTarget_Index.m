@@ -28,11 +28,11 @@
     return nav;
 }
 
-- (id)action_setting:(NSDictionary *)param{
+- (id)action_setting:(NSDictionary *)param completion:(void (^)(id result))completion{
+    NSLog(@"setting param:%@",param);
     HJSettingViewController * vc = [[HJSettingViewController alloc] init];
     UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:vc];
     return nav;
 }
-
 
 @end
